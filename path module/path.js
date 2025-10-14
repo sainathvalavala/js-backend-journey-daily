@@ -1,5 +1,6 @@
 
 const path= require("path")
+console.log(path);
 let filePath = "C:\\Users\\SaiNatg\\Downloads\\books.json";
 let filePath2 = "users/saiNatg/downloads/books.json";
 let filePath3 = '/home/user/documents/file.txt';
@@ -36,4 +37,7 @@ var pathObject2={
 console.log(path.format(pathObject2))
 //path.sep
 console.log(path.sep)
+//image path
+var p = "nodejs\readMulFiles\image.png";
+console.log(path.resolve(p))
 
