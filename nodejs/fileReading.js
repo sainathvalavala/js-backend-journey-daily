@@ -10,8 +10,13 @@ var fs=require("fs");//file system module
 
 //readfile("filename", callback fn())--readfile is a first class function
 console.log("first line")
+// fs.readFile("20mb.json", function(err,sdata){
+//   console.log(err)
+//   console.log(sdata)
+// })
 fs.readFile("books.json", function(err,fdata){
   console.log(err)
-  console.log(fdata.toString())
+  var data= JSON.parse(fdata.toString())
+  console.log(typeof data)
 })
 console.log("last line");
