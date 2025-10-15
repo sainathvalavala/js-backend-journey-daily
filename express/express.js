@@ -1,4 +1,4 @@
-/*expressJS
+/*expressJS-   connecting backend to browser
 - a nodeJS framework to create WebAppn and also provides the server to run that Application.
 -creates a server and receives requests from browser URL and responds back with related data.*/
 
